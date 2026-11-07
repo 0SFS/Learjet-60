@@ -1,0 +1,15 @@
+{
+  "name": "@0sfs/learjet-60",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Learjet 60 HD visual asset and JSBSim flight-model research for 0SFS.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "exports": {
+    "./aircraft": "./aircraft.json",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "prepare:hd": "node scripts/prepare-hd.mjs"
+  }
+}

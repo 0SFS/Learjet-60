@@ -1,0 +1,25 @@
+{
+  "id": "learjet-60",
+  "familyId": "learjet-60",
+  "label": "Bombardier Learjet 60",
+  "summary": "HD exterior asset. Flight model pending.",
+  "modelYawRad": 0,
+  "modelOffset": { "x": 0, "y": 0, "z": 0 },
+  "propellerBlades": 0,
+  "lods": [
+    {
+      "id": "hd",
+      "label": "HD — highest detail",
+      "triangles": 25176,
+      "path": "aircraft/learjet-60/Learjet_60_HD.glb",
+      "autoFromMeters": 0,
+      "credit": {
+        "artist": "OUTPISTON",
+        "licence": "CC BY-NC-SA 4.0",
+        "sourceUrl": "https://sketchfab.com/3d-models/bombardier-learjet-60-7573f836dd3a46bdbce8b90b5a40f104",
+        "note": "Exterior repainted white; original geometry and embedded textures preserved. Attribution and provenance metadata added. Static gear-up model."
+      }
+    }
+  ],
+  "camera": { "follow": "aircraft" }
+}
